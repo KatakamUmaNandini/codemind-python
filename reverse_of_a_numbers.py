@@ -1,7 +1,7 @@
 n=int(input())
-rev=0
-while(n>0):
-    a=n%10
-    rev=(rev*10)+a
+r=0
+while n>0:
+    t=n%10
+    r=(r*10)+t
     n=n//10
-print(rev)
+print(r)
