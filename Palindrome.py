@@ -1,11 +1,11 @@
 n=int(input())
-p=0
 u=n
-while(n>0):
-    a=n%10
-    p=(p*10)+a
+r=0
+while n>0:
+    t=n%10
+    r=(r*10)+t
     n=n//10
-if(p==u):
+if r==u:
     print(True)
 else:
     print(False)
