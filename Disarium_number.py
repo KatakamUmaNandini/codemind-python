@@ -1,20 +1,19 @@
 n=int(input())
 u=n
-r=n
+o=n
 s=0
 c=0
-while n>0:
-    p=n%10
+while(n>0):
+    t=n%10
     c=c+1
     n=n//10
-while u>0:
-    t=u%10
-    q=t**c
+while(u>0):
+    b=u%10
+    p=b**c
     c=c-1
-    s=s+q
+    s=s+p
     u=u//10
-
-if(s==r):
+if(s==o):
     print(True)
 else:
     print(False)
