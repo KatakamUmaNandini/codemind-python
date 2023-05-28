@@ -1,0 +1,10 @@
+n=int(input())
+a=list(map(int,input().split()))
+s=set(a)
+c=list(s)
+f=len(c)
+if(f<3):
+    print(max(a))
+else:
+    c.sort()
+    print(c[-3])
