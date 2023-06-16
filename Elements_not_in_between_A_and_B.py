@@ -1,8 +1,8 @@
 n=int(input())
-m=list(map(int,input().split()))
+l=list(map(int,input().split()))
 a,b=map(int,input().split())
 v=[]
-for i in m:
+for i in l:
     if i<a or i>b:
         v.append(i)
 if len(v)==0:
