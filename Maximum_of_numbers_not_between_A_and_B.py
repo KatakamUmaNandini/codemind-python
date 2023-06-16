@@ -1,11 +1,11 @@
 n=int(input())
-m=list(map(int,input().split()))
-a,b=map(int,input().split())
-v=[]
-for i in m:
-    if i<a or i>b:
-        v.append(i)
-if len(v)==0:
+b=list(map(int,input().split()))
+x,y=map(int,input().split())
+a=[]
+for i in b:
+    if i<x or i>y:
+        a.append(i)
+if len(a)==0:
     print("-1")
 else:
-    print(max(v))
+    print(max(a))
