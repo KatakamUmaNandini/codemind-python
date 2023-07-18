@@ -1,0 +1,16 @@
+n=int(input())
+a=list(map(int,input().split()))
+if(n%2==0):
+    j=a[:n//2]
+    k=a[n//2:]
+else:
+    j=a[:(n//2)+1]
+    k=a[(n//2)+1:]
+if(sum(j)>sum(k)):
+    u=sum(j)-sum(k)
+else:
+    u=sum(k)-sum(j)
+if(u%4==0):
+    print("X")
+else:
+    print("Y")
